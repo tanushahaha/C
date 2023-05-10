@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    int j;
+    printf("HELLO WELCOME TO TANUSHA'S TABLE WORKSHOP\n");
+    printf("enter the number you want the table of \n");
+    scanf("%d", &n);
+    printf("enter till which multiple you want the table \n");
+    scanf("%d", &j);
+    for (int i=1; i<=j; i++)
+    {
+        printf(" %d X %d = %d \n",n,i,n*i );
+    }
+    
+
+    return 0;
+}
+
+
